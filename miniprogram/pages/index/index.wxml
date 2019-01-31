@@ -28,7 +28,7 @@
 
   <!-- 操作数据库 -->
   <view class="uploader">
-    <navigator url="../databaseGuide/databaseGuide" open-type="navigate" class="uploader-text">
+    <navigator url="../databaseGuide/databaseGuide" open-type="navigate" class="uploader-text" >
       <text>前端操作数据库</text>
     </navigator>
   </view>
@@ -37,6 +37,13 @@
   <view class="uploader">
     <navigator url="../addFunction/addFunction" open-type="navigate" class="uploader-text">
       <text>快速新建云函数</text>
+    </navigator>
+  </view>
+
+
+  <view class="uploader">
+    <navigator url="../app/index/index" open-type="navigate" class="uploader-text">
+      <text>莲花雪球lite</text>
     </navigator>
   </view>
 

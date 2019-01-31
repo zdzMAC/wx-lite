@@ -1,0 +1,6 @@
+{
+  "navigationBarTitleText": "莲花雪球lite",
+  "pages":[
+      "pages/app/index/index"
+  ]
+}

@@ -1,0 +1,80 @@
+/* pages/app/index/index.wxss */
+
+@import "../../../style/picture.wxss";
+page{
+  height: 100%;
+  width: 100%;
+}
+
+
+
+
+.lite-index .options{
+  position: absolute;
+  top:0;
+  right:0;
+  font-size: 12px;
+  color:#fff;
+}
+
+.lite-index .options li{
+  display: block;
+  background: #1a6b7a;
+  border-radius: 40rpx 0 0 40rpx;
+  line-height:60rpx;
+  height: 60rpx;
+  padding:0 30rpx;
+  margin-top:30rpx;
+}
+
+.lite-index .options .download{
+  width: 50rpx;
+}
+
+.lite-index .footer{
+  position:absolute;
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+  width: 100%;
+  bottom:0;
+  left:0;
+  color:#fff;
+  text-shadow:2px 2px 8px #666;
+  font-family: sans-serif;
+  font-size: 30rpx;
+}
+
+.lite-index .footer li{
+  width: 33%;
+  height: 300rpx;
+  text-align: center;
+
+}
+
+.lite-index .footer li text{
+  display: inline-block;
+  margin-top: 220rpx
+  
+}
+
+.throw-my-bottle{
+  position:absolute;
+  z-index: 10;
+  bottom: 0;
+  right:10%;
+  width: 21%;
+  height: 300rpx;
+
+}
+
+.boom{
+  position: absolute;
+  top:50%;
+  left:60%;
+  width: 20px;
+  height: 20px;
+}
+
+
+

@@ -1,0 +1,24 @@
+<view class="lite-index">
+    <ul class="options">
+      <li><text class="near">附近的人</text></li>
+      <li><text class="share">分享</text></li>
+      <li><text class="download">下载</text></li>
+    </ul>
+
+
+
+
+    <ul class="footer">
+      <li class="throw-bottle" bindtap='translate'><text>扔一个</text></li>
+      <li class="pick-bottle"><text>捡一个</text></li>
+      <li class="my-bottle" bindtap='reset'><text>我的瓶子</text></li>
+    </ul>
+
+    <image wx:if="{{bottleShow}}"        src="../../../images/lite/index/bottle-self.png" class="throw-my-bottle" 
+    animation="{{animation}}" >
+    </image>
+
+    <image class="boom"  src="../../../images/lite/index/boom.png"
+    animation="{{animation_boom}}">
+    </image>
+</view>
